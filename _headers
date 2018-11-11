@@ -1,10 +1,12 @@
 /*
-  Content-Security-Policy-Report-Only: default-src 'none'; script-src 'self' d33wubrfki0l68.cloudfront.net; connect-src 'self'; img-src 'self' d33wubrfki0l68.cloudfront.net; style-src 'self' 'unsafe-inline' d33wubrfki0l68.cloudfront.net; font-src d33wubrfki0l68.cloudfront.net; report-uri https://sentry.io/api/1320566/security/?sentry_key=c78cd4ab3d1a4f9597dc4fe6cf606364
+  Content-Security-Policy-Report-Only: default-src 'none'; script-src 'self' d33wubrfki0l68.cloudfront.net; connect-src 'self'; img-src 'self' d33wubrfki0l68.cloudfront.net; style-src 'self' 'sha256-anQSeQoEnQnBulZOQkDOFf+e6xBIGmqh7M8YFT992co=' d33wubrfki0l68.cloudfront.net; font-src d33wubrfki0l68.cloudfront.net; report-uri https://sentry.io/api/1320566/security/?sentry_key=c78cd4ab3d1a4f9597dc4fe6cf606364
 /
   Link: </images/slides/01.jpg>; rel=preload; as=image
 /css/*
   Cache-Control: public, max-age=14400
 /js/*
   Cache-Control: public, max-age=14400
+/fonts/*
+  Cache-Control: public, max-age=50000
 /images/*
   Cache-Control: public, max-age=50000
