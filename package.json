@@ -1,0 +1,28 @@
+{
+  "name": "www.scrollytelling.com",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Our corporate website",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrollytelling/gone.git"
+  },
+  "keywords": [
+    "html",
+    "countdown"
+  ],
+  "author": "Joost Baaij",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/scrollytelling/gone/issues"
+  },
+  "homepage": "https://github.com/scrollytelling/gone#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "http-server": "^0.11.1"
+  }
+}
