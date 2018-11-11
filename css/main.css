@@ -146,12 +146,6 @@ p.lead {
 		font-size: 1.8rem;
 	}
 }
-em, i, strong, b {
-	font-size: 1.6rem;
-	line-height: 3rem;
-	font-style: normal;
-	font-weight: normal;
-}
 em, i {
 	font-family: "roboto-italic", serif;
 }
@@ -258,6 +252,12 @@ ol {
 }
 ul {
 	list-style: disc;
+}
+ul.nakd {
+	list-style: none;
+	padding-left: 0;
+	font-size: 140%;
+	line-height: 2;
 }
 li {
 	display: list-item;
@@ -1329,7 +1329,7 @@ header .social-links ul li a:focus {
 	line-height: 1.267;
 }
 #info .tabs-wrap .tab-entry-intro p.lead {
-	color: rgba(17, 17, 17, 0.5);
+	color: rgba(17, 17, 17, 1);
 }
 #info .tabs-wrap .tab-entry-intro .with-bottom-line {
 	position: relative;
@@ -1430,7 +1430,8 @@ header .social-links ul li a:focus {
 .about-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
-	color: #3A606E;
+	color: #BCE3DE;
+	text-shadow: 2px 2px 4px #3A606E;
 }
 .about-list .icon i {
 	font-size: 5.4rem;
