@@ -62,8 +62,8 @@
   ------------------------------------------------------ */
   $('.home-particles')
     .particleground({
-      dotColor: '#fff',
-      lineColor: '#555555',
+      dotColor: '#bce3dd',
+      lineColor: '#B2BCAA',
       particleRadius: 6,
       curveLines: true,
       density: 10000,
