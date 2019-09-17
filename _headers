@@ -1,5 +1,4 @@
 /*
-  Content-Security-Policy-Report-Only: default-src 'none'; script-src 'self' d33wubrfki0l68.cloudfront.net; connect-src 'self'; img-src 'self' d33wubrfki0l68.cloudfront.net; style-src 'self' 'sha256-anQSeQoEnQnBulZOQkDOFf+e6xBIGmqh7M8YFT992co=' d33wubrfki0l68.cloudfront.net; font-src d33wubrfki0l68.cloudfront.net; report-uri https://sentry.io/api/1320566/security/?sentry_key=c78cd4ab3d1a4f9597dc4fe6cf606364
   X-Frame-Options: SAMEORIGIN
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
