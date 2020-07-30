@@ -1242,17 +1242,16 @@ header .social-links ul li a:focus {
  *
  * ------------------------------------------------------------------- */
 #info {
-	background: #FFFFFF;
-	background-image: url(../images/info-bg.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
+	background: #bce3dd;
 	padding: 10.2rem 0 9rem;
 	position: relative;
 	color: rgba(17, 17, 17, 0.7);
+}
+#info a {
+	color: #151515;
+}
+#info a:hover {
+	border-bottom: 1px solid #151515;
 }
 #info .info-overlay {
 	position: absolute;
@@ -1431,7 +1430,6 @@ header .social-links ul li a:focus {
 	display: inline-block;
 	margin-bottom: 2.1rem;
 	color: #BCE3DE;
-	text-shadow: 2px 2px 4px #3A606E;
 }
 .about-list .icon i {
 	font-size: 5.4rem;
