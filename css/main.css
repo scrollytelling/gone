@@ -1625,7 +1625,56 @@ header .social-links ul li a:focus {
 	font-size: 1.7rem;
 }
 
-
+#humblebrag {
+	background: #151515;
+	padding-top: 9rem;
+	padding-bottom: 7.8rem;
+	text-align: center;
+}
+#humblebrag p.lead {
+	color: rgba(255, 255, 255, 0.5);
+}
+#humblebrag .button {
+	background: #02312e;
+	color: #FFFFFF;
+}
+#humblebrag .button:hover {
+	background: #151515;
+}
+.cta-wrap {
+	max-width: 670px;
+}
+.cta-thumb {
+	display: inline-block;
+	margin-bottom: 1.2rem;
+}
+.cta-thumb img {
+	height: 7.8rem;
+	width: 7.8rem;
+	border-radius: 50%;
+}
+.cta-content h2 {
+	position: relative;
+	padding-bottom: 2.1rem;
+	color: #FFFFFF;
+}
+.cta-content h2::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 80px;
+	background: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -40px;
+}
+.cta-content h2 a, .cta-content h2 a:visited {
+	color: #FFFFFF;
+}
+.cta-content span {
+	color: #FFFFFF;
+}
 /* ===================================================================
  * 11. cta - (_layout.scss)
  *
