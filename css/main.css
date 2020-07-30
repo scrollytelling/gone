@@ -1685,8 +1685,19 @@ header .social-links ul li a:focus {
 	padding-bottom: 7.8rem;
 	text-align: center;
 }
-#cta p.lead {
+#cta p,
+#cta li {
 	color: rgba(255, 255, 255, 0.5);
+}
+#cta li {
+	margin-top: 5rem;
+}
+#cta li a {
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+#cta li a:hover {
+	color: rgba(255, 255, 255, 0.8);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
 #cta .button {
 	background: #02312e;
@@ -1694,6 +1705,13 @@ header .social-links ul li a:focus {
 }
 #cta .button:hover {
 	background: #151515;
+}
+#cta ul.nakd {
+	margin-top: 9rem;
+	text-align: left;
+}
+#cta ul.nakd h3 {
+	color: rgba(255, 255, 255, 0.8);
 }
 .cta-wrap {
 	max-width: 670px;
