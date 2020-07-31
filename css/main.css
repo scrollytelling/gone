@@ -1697,6 +1697,9 @@ header .social-links ul li a:focus {
 	color: rgba(255, 255, 255, 0.8);
 	border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
+#cta span.nw {
+	color: rgba(255, 255, 255, 0.5);
+}
 #cta .button {
 	background: #02312e;
 	color: #FFFFFF;
@@ -1955,4 +1958,7 @@ footer .back-to-top a i {
 	footer .back-to-top a {
 		padding: 1.2rem 2.3rem 1.5rem;
 	}
+}
+span.nw {
+	white-space: nowrap;
 }
